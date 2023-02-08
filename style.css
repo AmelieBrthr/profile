@@ -1,0 +1,85 @@
+h1 {
+  font-family: 'Lora';
+  color: #3d5a80;
+}
+
+h2 {
+  font-family: 'Lora';
+  color: #98c1d9;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #293241;
+}
+
+a {
+  color: #ee6c4d;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3d5a80;
+}
+
+.card {
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 5px 5px 15px rgba(61, 90, 128, 0.2);
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: rgba(152, 193, 217, 0.1);
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+@media (min-width: 961px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    margin: 50px auto;
+    width: 700px
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    margin: 40px auto;
+    width: 600px
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 20px auto
+  }
+}
